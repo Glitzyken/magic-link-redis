@@ -1,0 +1,26 @@
+{
+  "name": "magic-link-redis",
+  "version": "1.0.0",
+  "description": "The sample project for my 'How Redis can Make Authentication 10x Easy For Your Users' article.",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "NODE_ENV=production node index.mjs",
+    "dev": "nodemon index.mjs"
+  },
+  "type": "module",
+  "author": "Kenneth Jimmy",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.7",
+    "redis": "^4.2.0",
+    "validator": "^13.7.0"
+  }
+}
